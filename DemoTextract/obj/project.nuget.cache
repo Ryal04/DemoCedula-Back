@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IfIZu66W9UOP27TDDi+qX0Ht5+ozIt8acOGgHMkSw9eHOrzl3JERIWX+mrKKsRbQp3OC1a6aQEJnlrdEUVaeig==",
+  "dgSpecHash": "iTnjBmKw46PjaCSM6+a+eKUCjufNdkMApXf00xLTWnBcj4Wvvwa0A9fXmwcXtaEfimnvEcSNle/NUlwS3axaYQ==",
   "success": true,
-  "projectFilePath": "D:\\Users\\practecnologia03\\source\\repos\\DemoTextract\\DemoTextract\\DemoTextract.csproj",
+  "projectFilePath": "D:\\Users\\practecnologia03\\source\\repos\\DemoTextract\\demotextract\\DemoTextract.csproj",
   "expectedPackageFiles": [
     "D:\\Users\\practecnologia03\\.nuget\\packages\\awssdk.core\\3.7.2.9\\awssdk.core.3.7.2.9.nupkg.sha512",
     "D:\\Users\\practecnologia03\\.nuget\\packages\\awssdk.extensions.netcore.setup\\3.7.1\\awssdk.extensions.netcore.setup.3.7.1.nupkg.sha512",
