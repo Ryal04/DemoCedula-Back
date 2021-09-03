@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\practecnologia03\\source\\repos\\DemoTextract\\DemoTextract\\DemoTextract.csproj": {}
+    "D:\\Users\\practecnologia03\\source\\repos\\DemoTextract\\demotextract\\DemoTextract.csproj": {}
   },
   "projects": {
-    "D:\\Users\\practecnologia03\\source\\repos\\DemoTextract\\DemoTextract\\DemoTextract.csproj": {
+    "D:\\Users\\practecnologia03\\source\\repos\\DemoTextract\\demotextract\\DemoTextract.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\practecnologia03\\source\\repos\\DemoTextract\\DemoTextract\\DemoTextract.csproj",
+        "projectUniqueName": "D:\\Users\\practecnologia03\\source\\repos\\DemoTextract\\demotextract\\DemoTextract.csproj",
         "projectName": "DemoTextract",
-        "projectPath": "D:\\Users\\practecnologia03\\source\\repos\\DemoTextract\\DemoTextract\\DemoTextract.csproj",
+        "projectPath": "D:\\Users\\practecnologia03\\source\\repos\\DemoTextract\\demotextract\\DemoTextract.csproj",
         "packagesPath": "D:\\Users\\practecnologia03\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\practecnologia03\\source\\repos\\DemoTextract\\DemoTextract\\obj\\",
+        "outputPath": "D:\\Users\\practecnologia03\\source\\repos\\DemoTextract\\demotextract\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "D:\\Users\\practecnologia03\\AppData\\Roaming\\NuGet\\NuGet.Config",

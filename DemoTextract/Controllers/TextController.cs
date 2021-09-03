@@ -24,8 +24,11 @@ namespace DemoTextract.Controllers
         [HttpPost]
         public async Task<IActionResult> Text([FromForm] IFormFile CedFrontal)
         {
-            //Convercion Imagen
+            var cont = 0;
+            var list = new List<String>();
             Document ImageTarget = new Document();
+
+            //Convercion Imagen
             using (var ms = new MemoryStream())
             {
                 CedFrontal.CopyTo(ms);
@@ -37,16 +40,41 @@ namespace DemoTextract.Controllers
                         Document = ImageTarget,
             });
 
-            Console.WriteLine("________________");
+ 
             foreach (var data in response.Blocks) {
 
                 if (data.BlockType.Value == "LINE" && data.Confidence >= 85)
                 {
-                    Console.WriteLine(data.Text);
+                    cont++;
+
+                    if (cont > 2 && cont != 4) 
+                    {
+                        if (data.Text != "NOMBRES" && data.Text != "APELLIDOS" && data.Text != "FIRMA" && data.Text != "NUMERO")
+                        {
+                            list.Add(data.Text);
+                        }   
+                    }
+
+                    if (cont == 4)
+                    {
+                        if (data.Text != "NÚMERO" && data.Text != "NUMERO")
+                        {
+                            string[] split = data.Text.Split(' ');
+
+                            if (split.Length != 1)
+                            {
+                                list.Add(split[1]);
+                            }
+                            else 
+                            {
+                                list.Add(data.Text);
+                            }
+                        }
+                    }
                 }
             }
-            
-            return Ok(response.Blocks);
+
+            return Ok(list);
         }
     }
 }
