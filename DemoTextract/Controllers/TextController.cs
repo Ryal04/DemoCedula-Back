@@ -28,12 +28,11 @@ namespace DemoTextract.Controllers
             var list = new List<String>();
             Document ImageTarget = new Document();
 
-            //Convercion Imagen
+            //Convercion Imagen a Bytes
             using (var ms = new MemoryStream())
             {
                 CedFrontal.CopyTo(ms);
-                ImageTarget.Bytes = new MemoryStream(ms.ToArray());
-                // act on the Base64 data
+                ImageTarget.Bytes = new MemoryStream(ms.ToArray()); 
             }
 
             var response = await amazonTextract.DetectDocumentTextAsync(new DetectDocumentTextRequest(){ 
