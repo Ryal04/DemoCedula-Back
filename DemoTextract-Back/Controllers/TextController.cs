@@ -60,27 +60,37 @@ namespace DemoTextract_Back.Controllers
                     {
                         list.Add(data.Text);
                     }
-
                 }
             }
 
+            //Split
             string[] fechanacimiento = list[0].Split(' ');
             if (fechanacimiento.Length > 1)
             {
                 list[0] = fechanacimiento[3];
             }
 
+            //Split
             string[] DepartamentoNacimiento = list[2].Split('(', ')');
             if (DepartamentoNacimiento.Length > 1)
             {
                 list[2] = DepartamentoNacimiento[1];
             }
 
+            //Split
             string[] fechaylugarexp = list[6].Split(' ');
             if (fechaylugarexp.Length > 1)
             {
                 list[6] = fechaylugarexp[1];
-                list[7] = fechaylugarexp[0];
+
+                if (list.Count > 7)
+                {
+                    list[7] = fechaylugarexp[0];
+                }
+                else
+                {
+                    list.Add(fechaylugarexp[0]);
+                }
             }
 
             return Ok(list);
