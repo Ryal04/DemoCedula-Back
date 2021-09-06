@@ -422,24 +422,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ROBER\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "D:\\Users\\practecnologia03\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Proyectos\\DemoCedula-Back\\DemoTextract-Back\\DemoTextract-Back.csproj",
+      "projectUniqueName": "D:\\Users\\practecnologia03\\Documents\\Proyectos\\DemoCedula-Back\\DemoTextract-Back\\DemoTextract-Back.csproj",
       "projectName": "DemoTextract-Back",
-      "projectPath": "D:\\Proyectos\\DemoCedula-Back\\DemoTextract-Back\\DemoTextract-Back.csproj",
-      "packagesPath": "C:\\Users\\ROBER\\.nuget\\packages\\",
-      "outputPath": "D:\\Proyectos\\DemoCedula-Back\\DemoTextract-Back\\obj\\",
+      "projectPath": "D:\\Users\\practecnologia03\\Documents\\Proyectos\\DemoCedula-Back\\DemoTextract-Back\\DemoTextract-Back.csproj",
+      "packagesPath": "D:\\Users\\practecnologia03\\.nuget\\packages\\",
+      "outputPath": "D:\\Users\\practecnologia03\\Documents\\Proyectos\\DemoCedula-Back\\DemoTextract-Back\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\ROBER\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "D:\\Users\\practecnologia03\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
